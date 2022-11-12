@@ -30,7 +30,7 @@ int end = Convert.ToInt32(Console.ReadLine());
 int[] array = CreateRandomArray(size, start, end);
 ShowArray(array);
 int sum = 0;
-for (int i = 2; i < size; i += 2)
+for (int i = 1; i < size; i += 2)
 {
     sum += array[i];
 }
